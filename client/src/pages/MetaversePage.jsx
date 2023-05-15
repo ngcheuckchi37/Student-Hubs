@@ -1,10 +1,12 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-export const MetaversePage = () => {
+const MetaversePage = props => {
   return (
-  <div>
-  <iframe src="http://127.0.0.1:8887/" width="100%" height="700px"></iframe>
-  </div>  
+    <div>MetaversePage</div>
   )
 }
-export default MetaversePage;
+
+MetaversePage.propTypes = {}
+
+export default MetaversePage
